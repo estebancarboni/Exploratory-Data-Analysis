@@ -58,10 +58,10 @@ legend("topright",
 )
 
 plot(dt,
-     as.numeric(df2$Global_active_power),
+     as.numeric(df2$Global_reactive_power),
      type = "l",
      xlab = "datetime",
-     ylab = "Global_active_power")
+     ylab = "Global_reactive_power")
 
 dev.copy(png, filename="plot4.png")
 dev.off()
